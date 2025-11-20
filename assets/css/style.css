@@ -37,7 +37,10 @@ header {
     background-color: lightcoral;
 }
 
-/* Main content */
+
+h1 { font-family: 'Oswald', sans-serif; }
+    
+    /* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
