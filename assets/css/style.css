@@ -53,7 +53,7 @@ header a {
 h1 { font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525
+    color: #252525;
 }
 
 #menu {
@@ -140,9 +140,15 @@ footer {
     }
 
     /* Main content */
-    main
+    main {
     /* Push main content down to accommodate larger header */
-    {
         margin-top: 79px;
+    }
+}
+
+/* Media query: laptops and larger (992 px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
