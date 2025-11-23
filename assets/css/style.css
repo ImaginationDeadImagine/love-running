@@ -1,6 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?
-family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 .oswald-400 {
   font-family: "Oswald", sans-serif;
@@ -155,13 +154,29 @@ main {
     margin: 5px 0;
 }
 
+/* Reasons image */
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Make the square image into a circle */
+    border-radius: 50%;
+    /* Make sure that the image does not get too large on larger screens */
+    max-width: 300px;
+    max-height: 300px
+}
+
+#benefits-image {
+    display: flex;
+    justify-content: center
+}   
+
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    align-items: center;
+    justify-content: center;
 }
 
 #social-networks i {
