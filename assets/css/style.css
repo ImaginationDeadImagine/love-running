@@ -1,20 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-.oswald-400 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -228,7 +214,7 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-}
+    }
 
 
     #menu {
@@ -260,7 +246,6 @@ main {
         width: 300px;
         right: 50px;
     }
-}
 
 /* Reasons section */
 #benefits-physical,
@@ -272,7 +257,7 @@ main {
 
 #bebenefits-physical > div,
 #benefits-mental > div {
-    width: 75%
+    width: 75%;
 }
 
 #benefits-mental > div {
@@ -293,13 +278,13 @@ main {
     }
 
     #signup-form {
-        color:#ffffff
+        color:#ffffff;
         background-color: rgba(60, 60, 60, .6);
         padding: 30px;
     }
 
     #signup-form > h2 {
-        color:#fafafa
+        color:#fafafa;
         margin-bottom: 20px;
     }
 
@@ -315,7 +300,7 @@ main {
     }
 
     .radio-buttons {
-        widdth: 100%;
+        width: 100%;
         display: flex;
         justify-content: space-between;;
     }
@@ -326,7 +311,7 @@ main {
         padding: 15px 32px;
         font-size: 100%;
         background-color: #454b1b;
-        color: #fafafa
+        color: #fafafa;
     }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -364,6 +349,7 @@ main {
         background-color: #fafafa;
         color: #454b1b
     }
+}
 
 /* Media query: large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -405,4 +391,4 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-}
+}   
